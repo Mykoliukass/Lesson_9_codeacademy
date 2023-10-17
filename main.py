@@ -44,3 +44,22 @@ if root **2 == given_num:
      print('It is a perfect square')
 else:
     print('It is not a perfect square') 
+
+# squares = {i: i*i for i in range(10) if i!=5}
+# print(squares)
+
+# my_tuple = (1,2,3)
+# num1,num2,num3 = my_tuple 
+# print(num1, num2, num3)
+
+# Given the same string calculate the occurrence of each letter in the string. (HINT: store everything in dictionary)
+
+# string_input = input('Please provide me with a string to analyze: ')
+# unique = {}
+# for char in ''.join(sorted(string_input.lower())):
+#      if char not in unique:
+#           unique[char] = 1
+#      else:
+#           unique[char]+=1
+# del unique[' ']
+# print(unique)
