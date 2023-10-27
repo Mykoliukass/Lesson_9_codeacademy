@@ -38,12 +38,12 @@
 # print(f"Number of words with more than 5 characters': {num}")
 
 # Write a program that checks if given number is a perfect square.
-given_num = int(input('Please provide me with a number to check if it is a prefect square: '))
-root =int(given_num **0.5)
-if root **2 == given_num:
-     print('It is a perfect square')
-else:
-    print('It is not a perfect square') 
+# given_num = int(input('Please provide me with a number to check if it is a prefect square: '))
+# root =int(given_num **0.5)
+# if root **2 == given_num:
+#      print('It is a perfect square')
+# else:
+#     print('It is not a perfect square') 
 
 # squares = {i: i*i for i in range(10) if i!=5}
 # print(squares)
@@ -63,3 +63,5 @@ else:
 #           unique[char]+=1
 # del unique[' ']
 # print(unique)
+
+
